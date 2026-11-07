@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-pt-40 sm:scroll-pt-24">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Hillarie Jane Babatuan | Student Portfolio</title>
+        <meta
+            name="description"
+            content="Hillarie’s first-year IT portfolio: beginner web projects, class notes, and the skills she is learning."
+        >
+        <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+        <style>
+            html {
+                scroll-behavior: smooth;
+            }
+
+            a:focus-visible {
+                outline: 3px solid #2dd4bf;
+                outline-offset: 5px;
+            }
+
+            .skip-link {
+                position: fixed;
+                z-index: 60;
+                top: -80px;
+                left: 20px;
+                padding: 10px 16px;
+                background-color: #06161e;
+                color: #ffffff;
+            }
+
+            .skip-link:focus {
+                top: 10px;
+            }
+
+            @media (prefers-reduced-motion: reduce) {
+                html {
+                    scroll-behavior: auto;
+                }
+
+                a {
+                    transition: none;
+                }
+            }
+        </style>
+    </head>
+    <body class="bg-[#06161e] pt-36 font-sans leading-relaxed text-slate-100 sm:pt-20">
+        <a class="skip-link" href="#main">Skip to content</a>
+        <header
+            class="fixed inset-x-0 top-0 z-50 h-36 border-b border-slate-600 bg-[#06161e]/95 backdrop-blur-sm sm:h-20"
+        >
+            <div
+                class="mx-auto flex h-full max-w-6xl flex-wrap items-center justify-between gap-5 px-6 py-5"
+            >
+                <a class="text-xl font-semibold tracking-tight" href="#home">Hillarie Jane Babatuan<span class="text-teal-300">.</span></a>
+                <nav class="flex w-full flex-wrap gap-5 sm:w-auto" aria-label="Main navigation">
+                    <a class="text-slate-300 hover:text-teal-300 py-2 text-sm" href="#home">Home</a>
+                    <a class="text-slate-300 hover:text-teal-300 py-2 text-sm" href="#about">About</a>
+                    <a class="text-slate-300 hover:text-teal-300 py-2 text-sm" href="#skills">Skills</a>
+                    <a class="text-slate-300 hover:text-teal-300 py-2 text-sm" href="#projects">Projects</a>
+                    <a class="text-slate-300 hover:text-teal-300 py-2 text-sm" href="#contact">Contact</a>
+                </nav>
+            </div>
+        </header>
+        <main id="main" class="mx-auto max-w-6xl px-6" tabindex="-1">
+            <section
+                id="home"
+                class="grid items-center gap-12 py-12 md:grid-cols-2 md:py-16"
+                aria-label="Introduction"
+            >
+                <div>
+                    <p class="mb-5 font-mono text-sm text-teal-300">BSIT / FIRST YEAR</p>
+                    <h1 class="mb-6 text-5xl font-semibold leading-tight tracking-tight md:text-6xl">Hi, I’m Hillarie.<br><span class="text-teal-300">Discovering the magic of turning blank screens into websites.<br></span></h1>
+                    <p class="max-w-xl text-lg text-slate-300">
+                        I'm currently learning how to create web pages that I could put informative data and make it useful for everyone. This web page introduces a small glimpse of myself.
+                    </p>
+                    <div class="mt-8 flex flex-wrap items-center gap-6">
+                        <a
+                            class="rounded bg-teal-300 px-5 py-3 font-semibold text-slate-900 transition hover:bg-teal-200"
+                            href="#projects"
+                        >
+                            See my projects
+                        </a>
+                        <a
+                            class="text-slate-100 underline underline-offset-4 hover:text-teal-300"
+                            href="#about"
+                        >
+                            More about me
+                        </a>
+                    </div>
+                </div>
+                <figure class="mx-auto w-full max-w-sm">
+                    <img
+                        class="w-full rounded-md bg-slate-800 object-contain"
+                        src="assets/images/profile-hillarie.png"
+                        alt="Photo of Hillarie wearing a formal attire."
+                        width="600"
+                        height="600"
+                    >
+                    <figcaption class="mt-3 flex justify-between gap-4 text-xs text-slate-300"><span>Hillarie Jane Babatuan</span><span>First year · BSIT</span></figcaption>
+                </figure>
+            </section>
+            <section
+                id="about"
+                class="grid gap-12 border-t border-slate-600 py-16 md:grid-cols-2"
+                aria-labelledby="about-title"
+            >
+                <div>
+                    <p class="mb-4 font-mono text-sm text-teal-300">A LITTLE BACKGROUND</p>
+                    <h2 id="about-title" class="mb-6 text-3xl font-semibold tracking-tight md:text-4xl">Learning and discovering things,<br>one step at a time.</h2>
+                    <p class="mb-5 text-slate-300">
+                        I'm Hillarie Jane Babatuan. A first year BSIT student major in Programming from Cordova Public College. The tech field has always fascinated me ever since, and it has been my dream to know the levers of it and making things work.
+
+                    </p>
+                    <p class="mb-5 text-slate-300">
+                        Although a beginner, I strive and try to push myself even if it seems like I have such a small progress. Sometimes it's frustrating, but inorder to finish things—I have to begin.
+                    </p>
+                    <p class="text-slate-300">
+                        Aside from technology, I also love literature, arts, music, and traveling. It is my goal to learn tech while also keeping in touch of what makes us human.
+                    </p>
+                </div>
+                <div>
+                    <aside class="rounded-md bg-slate-800 p-6">
+                        <p class="mb-4 font-mono text-xs text-teal-300">MY COLLEGE CHAPTER</p>
+                        <h3 class="mb-3 text-xl font-semibold">BS Information Technology</h3>
+                        <p class="mb-4 text-slate-300">Cordova Public College<br>First year · 2026 — Present</p>
+                        <p class="text-sm text-slate-300">Introduction to Computing, Computer Programming, and Web Development Fundamentals.</p>
+                    </aside>
+                    <p class="mt-6 text-slate-300">
+                        This year, I want to build a strong foundation of my programming skills and create small webpages to practice. I want to build a pillar that helps me push through the following years of my academic life.
+                    </p>
+                </div>
+            </section>
+            <section id="skills" class="py-16" aria-labelledby="skills-title">
+                <p class="mb-4 font-mono text-sm text-teal-300">WHAT I’M LEARNING</p>
+                <h2 id="skills-title" class="mb-8 text-3xl font-semibold tracking-tight md:text-4xl">A small toolkit. Plenty to practice.</h2>
+                <div class="grid gap-x-12 md:grid-cols-2">
+                    <article class="border-t border-slate-600 py-7">
+                        <p class="mb-2 font-mono text-xs text-teal-300">01 / PAGE STRUCTURE</p>
+                        <h3 class="mb-3 text-2xl font-semibold">HTML5</h3>
+                        <p class="text-slate-300">
+                            I've learned to use headings, tables, links, and insert images. It's a great thing to learn especially when I'm still a beginner.
+                        </p>
+                    </article>
+                    <article class="border-t border-slate-600 py-7">
+                        <p class="mb-2 font-mono text-xs text-teal-300">02 / LAYOUT &amp; SPACING</p>
+                        <h3 class="mb-3 text-2xl font-semibold">CSS3</h3>
+                        <p class="text-slate-300">
+                           I've learned to customize and apply design using CSS to my HTML. There's many things that. could do such as changing background colors, fonts, adjusing margins and paddings, using flexbox, and many more.
+                        </p>
+                    </article>
+                    <article class="border-t border-slate-600 py-7">
+                        <p class="mb-2 font-mono text-xs text-teal-300">03 / USEFUL UTILITIES</p>
+                        <h3 class="mb-3 text-2xl font-semibold">Tailwind CSS</h3>
+                        <p class="text-slate-300">
+                            Can also be used to apply designs for my html. I can adjust features such as spacing, colors, and fonts too.
+                        </p>
+                    </article>
+                    <article class="border-t border-slate-600 py-7">
+                        <p class="mb-2 font-mono text-xs text-teal-300">04 / THINKING IN STEPS</p>
+                        <h3 class="mb-3 text-2xl font-semibold">Programming Basics</h3>
+                        <p class="text-slate-300">
+                            Currently learning C language, it's syntax, basic structure and algorithms, variables, flowcharts, loops, etc.
+                        </p>
+                    </article>
+                </div>
+            </section>
+            <section id="projects" class="py-16" aria-labelledby="projects-title">
+                <div class="mb-10 grid items-end gap-6 md:grid-cols-2">
+                    <div>
+                        <p class="mb-4 font-mono text-sm text-teal-300">CLASSWORK &amp; PRACTICE</p>
+                        <h2 id="projects-title" class="text-3xl font-semibold tracking-tight md:text-4xl">My first attempts.</h2>
+                    </div>
+                    <p class="text-slate-300">My first three layouts that helped me learn the basics. The following images shows an illustrations of the mini projects that I made.</p>
+                </div>
+                <div class="space-y-12">
+                    <article class="grid items-center gap-8 border-t border-slate-600 pt-8 md:grid-cols-2">
+                        <img
+                            class="w-full rounded-md"
+                            src="assets/images/htmlpage.png"
+                            alt="A simple html web that I made, showing my interests and about."
+                            width="800"
+                            height="500"
+                            loading="lazy"
+                        >
+                        <div>
+                            <p class="mb-3 font-mono text-xs text-teal-300">01 / HTML </p>
+                            <h3 class="mb-4 text-3xl font-semibold tracking-tight">A Page About Me</h3>
+                            <p class="mb-5 text-slate-300">
+                                A small introduction, my about, and interests. This is the first thing I've made using html.
+                            </p>
+                            <a
+                                class="text-sm text-teal-300 underline underline-offset-4 hover:text-teal-200"
+                                href="assets/images/table-form.png"
+                            >
+                                View image preview →
+                            </a>
+                        </div>
+                    </article>
+                    <article class="grid items-center gap-8 border-t border-slate-600 pt-8 md:grid-cols-2">
+                        <img
+                            class="w-full rounded-md"
+                            src="assets/images/table-form.png"
+                            alt="A Computer Repair Service Request form, consist of table and options for information gathering."
+                            width="800"
+                            height="500"
+                            loading="lazy"
+                        >
+                        <div>
+                            <p class="mb-3 font-mono text-xs text-teal-300">02 / HTML &amp; CSS</p>
+                            <h3 class="mb-4 text-3xl font-semibold tracking-tight">Table and Form</h3>
+                            <p class="mb-5 text-slate-300">
+                                A table and form for Computer Repair Service Request Page. This is the first time that I have applied CSS for my HTML.
+                            </p>
+                            <a
+                                class="text-sm text-teal-300 underline underline-offset-4 hover:text-teal-200"
+                                href="assets/images/html-tailwind-page.png"
+                            >
+                                View image preview →
+                            </a>
+                        </div>
+                    </article>
+                    <article class="grid items-center gap-8 border-t border-white-600 pt-8 md:grid-cols-2">
+                        <img
+                            class="w-full rounded-md"
+                            src="assets/images/html-tailwind-page.png"
+                            alt="A deep blue student portfolio with white and teal texts."
+                            width="800"
+                            height="500"
+                            loading="lazy"
+                        >
+                        <div>
+                            <p class="mb-3 font-mono text-xs text-teal-300">03 / HTMl &amp; Tailwind</p>
+                            <h3 class="mb-4 text-3xl font-semibold tracking-tight">My Study Week</h3>
+                            <p class="mb-5 text-slate-300">
+                                A simple and my first evern portfolio built from HTML and Tailwind. With deep blue background, white and teal texts.
+                            </p>
+                            <a
+                                class="text-sm text-teal-300 underline underline-offset-4 hover:text-teal-200"
+                                href="assets/images/html-tailwind-page.png"
+                            >
+                                View image preview →
+                            </a>
+                        </div>
+                    </article>
+                </div>
+            </section>
+            <section
+                id="contact"
+                class="grid items-start gap-12 border-t border-slate-600 py-16 md:grid-cols-2"
+                aria-label="Contact"
+            >
+                <div>
+                    <p class="mb-4 font-mono text-sm text-teal-300">CONTACT</p>
+                    <h2 class="mb-6 text-4xl font-semibold tracking-tight md:text-5xl">Got an idea we could work with?<br></h2>
+                    <p class="max-w-lg text-slate-300">
+                        We could share our ideas, insights, notes, and collaborate. We can talk through email.
+                    </p>
+                </div>
+                <div class="rounded-md bg-slate-800 p-6 md:p-8">
+                    <p class="mb-4 text-sm text-slate-300">Reach me at</p>
+                    <a
+                        class="break-words text-xl font-semibold text-teal-300 underline underline-offset-4 hover:text-teal-200"
+                        href="mailto:hillariejanebabatuan7@gmail.com"
+                    >
+                        hillariejanebabatuan7@gmail.com
+                    </a>
+                    <div class="mt-8 border-t border-slate-600 pt-5 text-sm text-slate-300">
+                        <p>Cordova, Cebu, Philippines</p>
+                        <p class="mt-2">Cordova Public College · BSIT</p>
+                        <p class="mt-4">Usually checking messages after class.</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="border-t border-slate-600">
+            <div
+                class="mx-auto flex max-w-6xl flex-wrap justify-between gap-3 px-6 py-6 text-sm text-slate-300"
+            >
+                <p>© 2026 Hillarie Jane Babatuan</p>
+                <p>BSIT, first year · Cordova, Cebu</p>
+            </div>
+        </footer>
+    </body>
+</html>
